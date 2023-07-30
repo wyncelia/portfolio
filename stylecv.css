@@ -54,3 +54,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #c9e4de;
 }
+
+.hidden-content {
+    display: none;
+}
