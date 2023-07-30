@@ -89,6 +89,7 @@ body, html {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 .contact-form form textarea {
@@ -122,21 +123,4 @@ body, html {
     width: 40px;
     height: 40px;
     border-radius: 20%;
-}
-
-/* footer styling */
-
-footer {
-    margin: 0;
-    padding: 0;
-    background-color: #FAF9F6;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    margin-bottom: 20px;
-}
-
-.copyright {
-    text-align: center;
 }

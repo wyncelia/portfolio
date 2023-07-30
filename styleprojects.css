@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat&display=swap');
  
 * {
     font-family: "Crimson Text";
@@ -54,30 +54,3 @@ nav ul li a {
 nav ul li a:hover {
     color: #c9e4de;
 }
-
-/* homepage styling */
-
-.homepage {
-    background-color: #FAF9F6;
-    background-size: cover;
-    background-position: center;
-    min-height: calc(100vh - 100px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.centered-text {
-    text-align: center;
-    color: black;
-}
-
-.centered-text h2 {
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-
-.centered-text p {
-    font-size: 30px;
-}
-
