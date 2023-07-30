@@ -1,1 +1,1 @@
-* Hi! Welcome to my portfolio!
+Hi! Welcome to my portfolio!
