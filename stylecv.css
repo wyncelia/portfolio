@@ -2,7 +2,6 @@
  
 * {
     font-family: "Crimson Text";
-    background-color: #FAF9F6;
 }
 
 
@@ -24,7 +23,6 @@ nav {
 .title {
     padding: 10px;
     font-size: 24px;
-    font-weight: bold;
     text-decoration: none;
     margin-left: 40px;
 }
@@ -39,8 +37,8 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    margin-left: auto;
     margin-right: 40px;
+    margin-left: auto;
 }
 
 nav ul li {
@@ -56,9 +54,17 @@ nav ul li a:hover {
     color: #c9e4de;
 }
 
-.hidden-content {
-    display: none;
-}
+@media (max-width: 600px) {
+    .title {
+      margin-left: 10px;
+    }
+    
+    nav ul {
+      margin-right: 10px;
+      margin-left: 0;
+    }
+  }
+
 
 /* pdf styling */
 
@@ -69,4 +75,5 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
+    background-color: #FAF9F6;
 }

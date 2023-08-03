@@ -55,3 +55,14 @@ nav ul li a {
 nav ul li a:hover {
     color: #c9e4de;
 }
+
+@media (max-width: 600px) {
+    .title {
+      margin-left: 10px;
+    }
+    
+    nav ul {
+      margin-right: 10px;
+      margin-left: 0;
+    }
+  }
