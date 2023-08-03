@@ -2,6 +2,7 @@
  
 * {
     font-family: "Crimson Text";
+    background-color: #FAF9F6;
 }
 
 
@@ -81,6 +82,7 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 600px) {
     .pdf-container {
-        padding-bottom: 20px; /* Adjust padding for smaller screens */
+        width: 90vw;
+        height: 90vh;
     }
 }
