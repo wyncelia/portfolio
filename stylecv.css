@@ -2,6 +2,7 @@
  
 * {
     font-family: "Crimson Text";
+    background-color: #FAF9F6;
 }
 
 
@@ -57,4 +58,15 @@ nav ul li a:hover {
 
 .hidden-content {
     display: none;
+}
+
+/* pdf styling */
+
+.pdf-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
 }
