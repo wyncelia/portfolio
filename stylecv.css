@@ -65,24 +65,3 @@ nav ul li a:hover {
       margin-left: 0;
     }
   }
-
-
-/* pdf styling */
-
-.pdf-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 40px;
-    background-color: #FAF9F6;
-    overflow: auto;
-}
-
-@media only screen and (max-width: 600px) {
-    .pdf-container {
-        width: 90vw;
-        height: 90vh;
-    }
-}
