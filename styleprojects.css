@@ -162,3 +162,10 @@ nav ul li a:hover {
         margin-bottom: 10px;
     }
 }
+
+@media (max-width: 1024px) {
+    .tags span {
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+}
