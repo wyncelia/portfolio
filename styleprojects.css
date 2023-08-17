@@ -117,6 +117,13 @@ nav ul li a:hover {
     background-color: #F2F2F2;
 }
 
+@media (max-width: 767px) {
+    .card-grid {
+        grid-template-columns: 1fr; 
+        gap: 10px; 
+        padding: 20px; 
+    }
+
 /* timeline */
 
 .timeline {
