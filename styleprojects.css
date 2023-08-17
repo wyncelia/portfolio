@@ -5,7 +5,6 @@
     background-color: #FAF9F6;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +13,7 @@ body {
 /* navbar styling */
 
 nav {
-    background-color: #FAF9F6;
+    background-color: #F2F2F2;
     color: black;
     display: flex;
     align-items: center;
@@ -27,11 +26,13 @@ nav {
     font-weight: bold;
     text-decoration: none;
     margin-left: 40px;
+    background-color: #F2F2F2;
 }
 
 .title a {
     text-decoration: none;
     color: black;
+    background-color: #F2F2F2;
 }
 
 nav ul {
@@ -41,15 +42,18 @@ nav ul {
     display: flex;
     margin-left: auto;
     margin-right: 40px;
+    background-color: #F2F2F2;
 }
 
 nav ul li {
     padding: 15px;
+    background-color: #F2F2F2;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
+    background-color: #F2F2F2;
 }
 
 nav ul li a:hover {
@@ -66,3 +70,84 @@ nav ul li a:hover {
       margin-left: 0;
     }
   }
+
+  /* card styling */
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background-color: #F2F2F2;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+    background-color: #F2F2F2;
+}
+
+.card img {
+    max-width: 100%;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 32px;
+    margin: 10px 0;
+    background-color: #F2F2F2;
+}
+
+.card p {
+    font-size: 18px;
+    color: #black;
+    background-color: #F2F2F2;
+}
+
+/* timeline */
+
+.timeline {
+    background-color: #F2F2F2;
+    padding: 4px 8px; 
+    margin-top: 10px;
+    border-radius: 4px; 
+}
+
+.timeline span {
+    font-size: 14px;
+    color: #333;
+    background-color: #F2F2F2;
+}
+
+/* tags */
+
+.tags {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.tags span {
+    background-color: #E8BCCE;
+    padding: 4px 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #black;
+    margin: 0 4px;
+}
