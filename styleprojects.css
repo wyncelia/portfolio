@@ -13,7 +13,7 @@ body {
 /* navbar styling */
 
 nav {
-    background-color: #F2F2F2;
+    background-color: #FAF9F6;
     color: black;
     display: flex;
     align-items: center;
@@ -26,13 +26,11 @@ nav {
     font-weight: bold;
     text-decoration: none;
     margin-left: 40px;
-    background-color: #F2F2F2;
 }
 
 .title a {
     text-decoration: none;
     color: black;
-    background-color: #F2F2F2;
 }
 
 nav ul {
@@ -42,18 +40,16 @@ nav ul {
     display: flex;
     margin-left: auto;
     margin-right: 40px;
-    background-color: #F2F2F2;
+
 }
 
 nav ul li {
     padding: 15px;
-    background-color: #F2F2F2;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
-    background-color: #F2F2F2;
 }
 
 nav ul li a:hover {
