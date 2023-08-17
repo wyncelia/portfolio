@@ -155,3 +155,9 @@ nav ul li a:hover {
     color: #black;
     margin: 0 4px;
 }
+
+@media (max-width: 600) {
+    .tags span {
+        margin-bottom: 10px;
+    }
+}
