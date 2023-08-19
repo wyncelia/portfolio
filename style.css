@@ -93,3 +93,23 @@ nav ul li a:hover {
     font-size: 30px;
 }
 
+@media (max-width: 600px) {
+    .title {
+        margin-left: 10px;
+    }
+    
+    nav ul {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    .homepage {
+        padding: 0; /* Remove padding for portrait orientation */
+    }
+
+    @media (orientation: landscape) {
+        .homepage {
+            padding: 0 20px; /* Add padding for landscape orientation */
+        }
+    }
+}
