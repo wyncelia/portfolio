@@ -8,6 +8,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #FAF9F6;
 }
 
 /* navbar styling */
@@ -114,4 +115,13 @@ nav ul li a:hover {
             padding: 0 20px; /* Add padding for landscape orientation */
         }
     }
+}
+
+nav {
+    position: absolute; /* Add absolute positioning */
+    top: 0; /* Position it at the top */
+    left: 0; /* Position it at the left */
+    width: 100%; /* Take the full width */
+    z-index: 2; /* Ensure the navbar is above the contact form */
+}
 }
