@@ -148,8 +148,8 @@ body, html {
 
     /* Adjust contact form styles for landscape mode */
     .contact-form {
-        max-width: 90%; /* Adjust the width as needed */
-        padding: 10px; /* Adjust padding for smaller screens */
+        max-width: 80%; /* Adjust the width as needed */
+        padding: 20px; /* Adjust padding for smaller screens */
     }
 
     .contact-form h2 {

@@ -91,6 +91,8 @@ nav ul li a:hover {
 
 .centered-text p {
     font-size: 30px;
+    text-align: justify;
+    margin: 40px;
 }
 
 @media (max-width: 600px) {
@@ -107,7 +109,7 @@ nav ul li a:hover {
         padding: 0; /* Remove padding for portrait orientation */
     }
 
-    @media (orientation: landscape) {
+    @media (orientation: landscape) and (max-width: 600px) {
         .homepage {
             padding: 0 20px; /* Add padding for landscape orientation */
         }
