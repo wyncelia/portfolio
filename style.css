@@ -117,11 +117,3 @@ nav ul li a:hover {
     }
 }
 
-nav {
-    position: absolute; /* Add absolute positioning */
-    top: 0; /* Position it at the top */
-    left: 0; /* Position it at the left */
-    width: 100%; /* Take the full width */
-    z-index: 2; /* Ensure the navbar is above the contact form */
-}
-}
